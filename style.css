@@ -1,0 +1,132 @@
+html,body{
+    margin: 0;
+    padding: 0; 
+    height: 100%;
+    width: 100%;
+    
+    font-family: Georgia, serif;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 70vw;
+    width: 100%;
+    
+}
+
+#container h2{
+    text-align: center;
+}
+#container #logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 50%;
+}
+#container h1{
+    margin-bottom: 0;
+}
+#container h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d4d4d4;
+    color: gray;
+}
+#container h5{
+    color: gray;
+    font-weight: 500;
+}
+
+#container #input-container #search-button{
+    color: white;
+    outline: none;
+    background-color: rgb(80, 80, 80);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;  
+    cursor: pointer;   
+    transition: 0.5s;
+}
+#container #input-container #search-button:hover{
+    background-color: black;
+}
+#container #input-container .input-style{
+    outline: none;
+    height: 30px;
+    margin-right: 4px;
+    width: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+    border-image: initial;
+    border-radius: 3px;
+    padding: 0px 40px 0px 20px;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#navigation{
+    padding-top: 25px;
+}
+#navigation ul{
+    list-style: none;  
+    position: fixed; 
+}
+#navigation ul li{
+    margin: 30px 0;
+    cursor: pointer;
+    padding: 5px;
+    color: gray;
+    transition: 0.5s;
+
+}
+#navigation ul li:hover{
+    color: black;
+}
+#content{
+    /* float:right; */
+}
+
+#news-container{
+    margin: 0 auto;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+#news-container div{
+    margin: 15px 10px;
+    width: 21vw;
+    overflow: wrap;
+}
+#news-container div img{
+    width: 21vw;
+    height: 12vw;
+}
+#news-container div a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+#news-container div h3{
+    font-size: 14px;
+    margin: 0;
+}
+#news-container div h3:hover{
+    text-decoration: underline;
+}
+#news-container div h6{
+    font-size: 10px;
+    margin: 0;
+    margin-top: 7px;
+}
+#news-container div p{
+    font-size: 12px; 
+    color: darkgray;
+    margin: 0;
+    margin-top: 5px;
+}
